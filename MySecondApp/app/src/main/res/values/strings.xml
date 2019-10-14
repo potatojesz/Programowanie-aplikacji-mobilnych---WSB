@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Second App</string>
+    <string name="hello_world_text">Hello Toast!</string>
+    <string name="btnToast_text">TOAST</string>
+    <string name="btnCount_text">COUNT</string>
+    <string name="btnRandom_text">RANDOM</string>
+</resources>
