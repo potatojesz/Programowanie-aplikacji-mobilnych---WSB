@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DialogView App</string>
+    <string name="haslo">Hasło</string>
+    <string name="login">Login</string>
+</resources>

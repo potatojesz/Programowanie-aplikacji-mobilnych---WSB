@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item1"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Okno dialogowe"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item2"
+        android:title="Jakiś link"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item3"
+        android:title="Nie wiem co to"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/subitem1"
+                android:title="Elo" />
+            <item
+                android:id="@+id/subitem2"
+                android:title="Elo Elo" />
+        </menu>
+    </item>
+</menu>
